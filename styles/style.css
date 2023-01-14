@@ -109,6 +109,7 @@ Our-Feature styles
     padding-bottom: 80px;
 }
 .our-features-details-title{
+    border-left: 5px solid #FF900E;
     font-size: 45px;
     font-weight: 700px;
     padding-bottom: 10px;
