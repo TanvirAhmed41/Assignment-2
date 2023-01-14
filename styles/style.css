@@ -210,7 +210,7 @@ Media-Query-styles
     .banner-title, .nav-container{
         padding: 0;
     }
-    .banner-image img{  
+    .banner-image img, .our-features-image img{  
         height: 100%;
         width: 100%;
     }
