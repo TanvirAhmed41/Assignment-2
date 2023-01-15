@@ -75,8 +75,9 @@ body {
   padding: 0px 0px 20px 50px;
   text-align: center;
 }
-.banner-image {
+.banner-image img, .our-features-image img {
   padding: 50px;
+  width: 100%;
 }
 
 /* ------------------------------
@@ -111,13 +112,16 @@ Our-Feature styles
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 80px;
+  padding-bottom: 50px;
+}
+.our-features-details{
+    padding-top: 90px;
 }
 .our-features-details-title {
-  border-left: 5px solid #ff900e;
+  border-left: 4px solid #ff900e;
   font-size: 45px;
   font-weight: 700px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 .article-section {
   padding-top: 20px;
@@ -125,12 +129,12 @@ Our-Feature styles
   box-shadow: 10px 20px 20px 10px whitesmoke;
 }
 .our-features-btn {
-  width: 342px;
-  height: 200px;
+  width: 250px;
+  height: 150px;
   background: #ff900e;
-  border-radius: 8px;
-  font-weight: 700;
-  font-size: 65px;
+  border-radius: 10px;
+  font-weight: 700px;
+  font-size: 51px;
   color: #ffffff;
   position: relative;
   left: 450px;
