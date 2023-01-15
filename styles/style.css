@@ -170,10 +170,14 @@ Some-facts styles
   justify-content: center;
   align-items: center;
   width: 50%;
+  height: 50%;
   background-color: whitesmoke;
+  transition: all 1s ease-out 0.1s;
 }
 .some-facts-items-list:hover {
   background-color: #ff900e;
+  width: 60%;
+  height: 150%;
 }
 
 /* ------------------------------
